@@ -22,13 +22,13 @@ print(price_as_float)
 product_title = soup.find(id="productTitle").get_text().strip()
 print(product_title)
 
-# 2. if the price is below the prefered price, send me an email
+# 2. if the price is below the preferred price, send me an email
 
-#EMAIL INFO
+# EMAIL INFO
 SENDER_EMAIL = YOUR_EMAIL
 PASSWORD = YOUR_EMAIL_PASSWORD
 RECIPIENT_EMAIL = RECIPIENT_EMAIL
-PREFERED_PRICE = PREFERED PRICE
+PREFERRED_PRICE = PREFERRED_PRICE
 
 if price_as_float < PREFERED_PRICE:
 
