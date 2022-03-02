@@ -1,7 +1,7 @@
 # Amazon Product Price Tracker
 
 ### Description
-A program that will alert the user (throght Email) when a particular product's price is below his/her preferred price.
+A program that will alert the user (throght Email) when a particular product's price is below his/her preferred buying price.
 
 ### Steps on using the program
 
